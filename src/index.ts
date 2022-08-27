@@ -4,7 +4,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req: Request, res: Response) => {
-    res.send("Hello World, this is my second time dealing with Artifact")
+    res.send("Hello World, change 3")
 })
 
 app.listen(port, () => {

@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/Code/express-codedeploy-1
+    destination: /home/ubuntu/Code/express-codedeploy-2
 file_exists_behavior: RETAIN
 hooks:
   ApplicationStart:
